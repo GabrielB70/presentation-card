@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+
+}
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+h1,
+h2 {
+    font-weight: 300;
+}
+h1 {
+   font-size: 60px;
+}
+h2 {
+   font-size: 42px;
+}
+h3{
+   font-size: 36px;
+   font-weight: 900;
+}
+.small-ty {
+   font-size: 16px;
+}
+.bold-text {
+    font-weight: 900;
+    display: block;    
+}
+.bold-text h1 {
+    font-size: 80px;
+}
+.bold-text h2 {
+    font-size: 42;
+}
+a {
+    color: #99d930;
+    font-weight: 900;
+}
+a:hover {
+    color: #131313;
+}
+header, 
+.main,
+.footer {
+    padding: 100px 0;
+}
+.main {
+    background-color: white;
+    
+}
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+.portrait {
+    background-image: url("img/sophie.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 3px solid white;
+    
+}
+#face-reveal:hover {
+    background-image: url("img/ADAM.jpg");
+}
+.portrait, 
+#face-reveal {
+    margin: 0 auto;
+}
